@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app= "http://schemas.android.com/apk/res-auto"
+    xmlns:android= "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="478dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/the_cheezery" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purpleishGrey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/dustywhite"
+        android:textSize="@dimen/titleSize" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:fontFamily="@string/light"
+        android:textColor="@color/dustywhite"
+        android:textSize="@dimen/regText"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+
+   <Button
+       android:id="@+id/buttonp"
+       android:layout_marginTop="20dp"
+       android:layout_width="219dp"
+       android:layout_height="33dp"
+       android:text="@string/get_start"
+       android:textColor="@color/dustywhite"
+       android:background= "@drawable/round_button"
+       android:layout_gravity="center"
+       />
+
+</LinearLayout>
+
+</LinearLayout>
